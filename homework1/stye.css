@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+   font-family: "Poppins";
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(messibg.png);
+    width: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-left: 150px;
+  }
+  
+  
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    /* Ubah position ke fixed, dan top ke 0 */
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    /* Ubah z-index ke 10 */
+    
+  }
+  
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+  }
+  
+  .header-left {
+    float: left;
+  }
+  
+  .header-right {
+    float: right;
+         list-style: none;
+       padding: 20px 20px 0 0;
+       margin-right: 40px;
+  }
+  
+  .header-right li {
+    display: inline-block;
+  }
+  
+  .header-right a {
+  text-decoration: none;
+       color: white;
+       font-size: 14px;
+       font-weight: bold;
+       padding-left: 20px;
+       padding-right: 20px;
+     }
+  
+  .header-right a:hover {
+    color: gray;
+  }
+
+  article.aboutuss {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    padding-right: 200px;
+ }
+
+ .gambarabout {
+    order: 2;
+ }
+ 
+ .aboutus-text {
+    padding-top: 150px;
+    padding-right: 300px;
+    padding-left: 100px;
+    text-align: justify;
+    color: white;
+    margin-bottom: 100px;
+ }
+ 
+ .pabout {
+    margin-top: 20px;
+    color: white;
+ }
+ 
+ article.services {
+  padding-top: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  align-items: center;
+  background-color: black;
+}
+
+p.a {
+  color:white;
+}
+
+.headingtextrecord {
+  text-align: center;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 100%;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.column h1 {
+  color: white;
+}
+
+.row {
+  display: flex;
+ flex-direction: row;
+ align-items: center;
+}
+
+.card {
+  margin-top: 50px;
+  padding: 50px 50px 50px 50px;
+  text-align: justify;
+  border-radius: 10px;
+  border: 3px solid white;
+}
+
+p.as {
+   color: white;
+   margin-top: 10px;
+}
+
+.partner {
+  height: 500px;
+  background-color: black;
+  display: flex;
+  padding-top: 200px;
+}
+
+.txtpartner {
+  color: white;
+}
+
+.kolomlogo {
+  height: 300px;
+  width: 500px;
+  flex: 1;
+  box-sizing: border-box;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.lgmessi {
+  width: 70px;
+  height: 85.81px;
+}
+
+.kolombrand {
+  background-color: black;
+  height: 300px;
+  width: 500px;
+  flex: 4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.brand {
+  margin-top: 60px;
+  margin-left: 50px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.adidas {
+  width: 4vw;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.pepsi {
+  width: 7vw;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.lays {
+  width: 3.9vw;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.gatorade{
+  width: 2.8vw;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.bud {
+  width: 11vw;
+  padding-right: 20px;
+}
+
+.ooredoo {
+  width: 10vw;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.expodubai {
+  width: 5.5vw;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.mengniu {
+  width: 5.5vw;
+  padding-right: 20px;
+}
+
+.pes {
+  width: 5.5vw;
+  padding-right: 20px;
+}
+
+.orcam {
+  width: 8vw;
+  padding-right: 20px;
+}
+
+.hardrock {
+  width: 5vw;
+  padding-right: 20px;
+}
+
+.cirque {
+  width: 12.5vw;
+  padding-right: 20px;
+}
+
+.jacob {
+  width: 5.5vw;
+  padding-right: 20px;
+}
+.kolomsosmed {
+  height: 300px;
+  width: 500px;
+  padding-left: 50px;
+  padding-top: 120px;
+  padding-right: 100px;
+  flex: 1;
+}
+
+.ig {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #F6606A;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+}
